@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+    --navy: #031e3b;
+    --green: #65af02;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  body {
+    @apply bg-navy-950 font-sans text-mist antialiased;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display text-white;
+    text-wrap: balance;
+  }
+
+  ::selection {
+    background: var(--green);
+    color: #01090f;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--green);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #01090f;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #0a3c70;
+    border-radius: 99px;
+    border: 3px solid #01090f;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--green);
+  }
+}
+
+@layer components {
+  /* Frosted panel used across cards, header and widgets. */
+  .glass {
+    @apply border border-white/10 bg-navy-900/70 backdrop-blur-xl;
+  }
+
+  /* Shared horizontal rhythm so every section lines up. */
+  .shell {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8 lg:px-12;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-green/30 bg-green/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[.18em] text-green-light;
+  }
+
+  /* Establishes the 3D space that tilt/hover children transform inside. */
+  .scene-3d {
+    perspective: 1200px;
+    perspective-origin: 50% 50%;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+}
+
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 28px rgba(101, 175, 2, 0.45);
+  }
+
+  .bg-grid-fade {
+    background-image: linear-gradient(rgba(101, 175, 2, 0.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(101, 175, 2, 0.07) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, #000 20%, transparent 75%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, #000 20%, transparent 75%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

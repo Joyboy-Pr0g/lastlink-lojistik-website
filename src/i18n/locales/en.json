@@ -1,0 +1,270 @@
+{
+  "seo": {
+    "title": "LastLink | Final-mile delivery across Canada",
+    "description": "LastLink moves freight from the depot dock to the front door across Canada, with employee drivers, live tracking, and bilingual support in English and French."
+  },
+  "nav": {
+    "track": "Track shipment",
+    "journey": "How it works",
+    "services": "Services",
+    "coverage": "Coverage",
+    "about": "About",
+    "contact": "Contact",
+    "quote": "Get a quote",
+    "switch_language": "Switch to French",
+    "home": "LastLink home",
+    "primary": "Main navigation",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu"
+  },
+  "hero": {
+    "eyebrow": "Canada-wide final mile",
+    "title_a": "Your package's",
+    "title_b": "last kilometre,",
+    "title_c": "handled right.",
+    "subtitle": "From Vancouver to Montreal, LastLink runs the stretch that decides whether your customer trusts you again — with drivers on payroll and live tracking at every scan.",
+    "cta_primary": "Get a shipping quote",
+    "cta_secondary": "Track a package",
+    "scroll": "Scroll",
+    "ticker": [
+      "Vancouver",
+      "Calgary",
+      "Edmonton",
+      "Winnipeg",
+      "Toronto",
+      "Ottawa",
+      "Montreal",
+      "Halifax"
+    ],
+    "panel": {
+      "eyebrow": "Network status",
+      "title": "Canada operations",
+      "live": "Live",
+      "throughput": "Parcel throughput — last 12 hours",
+      "metrics": {
+        "in_transit": "Parcels in transit",
+        "lanes": "Active lanes tonight",
+        "on_time": "On-time today"
+      },
+      "cta": "See coverage map"
+    }
+  },
+  "journey": {
+    "eyebrow": "How it works",
+    "title": "Three moves between the dock and the door",
+    "description": "Every shipment runs the same path, whether it lands downtown or in a town of four hundred people.",
+    "steps": [
+      {
+        "kicker": "Step 01",
+        "title": "Instant booking & pickup",
+        "description": "You book a window, we scan the parcel onto its route at the depot. The tracking number goes live the moment it leaves your hands."
+      },
+      {
+        "kicker": "Step 02",
+        "title": "Cross-Canada transit",
+        "description": "Line-haul moves the freight between regional hubs — Vancouver, Calgary, Toronto, Montreal — with a scan at every handoff, not just at the ends."
+      },
+      {
+        "kicker": "Step 03",
+        "title": "Doorstep delivery",
+        "description": "A local driver runs the final stretch and photographs the drop. If nobody's home, it goes to the safe spot you picked, not back to a depot."
+      }
+    ],
+    "hint": "Move to advance"
+  },
+  "track": {
+    "eyebrow": "Live tracking",
+    "title": "Where is it right now?",
+    "description": "Drop in a tracking number and watch the chain of custody. Try the demo number below.",
+    "placeholder": "e.g. MM-9842-CA",
+    "label": "Tracking number",
+    "submit": "Track",
+    "tracking": "Locating…",
+    "demo": "Use demo number",
+    "not_found": "We can't find that number. Check the format — it looks like MM-0000-CA.",
+    "found": "Shipment found",
+    "eta": "Estimated arrival",
+    "eta_value": "Today, 4:20 PM",
+    "weight": "Weight",
+    "weight_value": "2.4 kg",
+    "service": "Service",
+    "service_value": "Express final mile",
+    "checkpoints": [
+      {
+        "title": "Picked up",
+        "place": "Calgary, AB",
+        "time": "Mon 08:12"
+      },
+      {
+        "title": "Departed hub",
+        "place": "Calgary, AB",
+        "time": "Mon 19:40"
+      },
+      {
+        "title": "In transit",
+        "place": "Toronto, ON",
+        "time": "Tue 14:05"
+      },
+      {
+        "title": "Arrived at station",
+        "place": "Ottawa, ON",
+        "time": "Wed 06:31"
+      },
+      {
+        "title": "Out for delivery",
+        "place": "Ottawa, ON",
+        "time": "Wed 09:02"
+      }
+    ]
+  },
+  "stats": {
+    "title": "Built for how Canadians actually receive packages",
+    "items": [
+      {
+        "value": "99.1",
+        "suffix": "%",
+        "label": "On-time delivery rate"
+      },
+      {
+        "value": "150",
+        "suffix": "+",
+        "label": "Communities served"
+      },
+      {
+        "value": "10",
+        "suffix": "",
+        "label": "Provinces covered"
+      },
+      {
+        "value": "24",
+        "suffix": "/7",
+        "label": "Tracking and support"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "What we handle",
+    "title": "Everything after the warehouse door",
+    "items": [
+      {
+        "title": "Final-mile delivery",
+        "description": "Regional hub to front door, for e-commerce, retail, and marketplace orders."
+      },
+      {
+        "title": "Route optimization",
+        "description": "Dispatch re-sequences every route each morning against traffic, weather, and load."
+      },
+      {
+        "title": "Live tracking portal",
+        "description": "Your customers see exactly where their order is, so they stop calling your support line."
+      },
+      {
+        "title": "Flexible redelivery",
+        "description": "Missed drops reschedule automatically, up to three attempts, at no extra cost."
+      },
+      {
+        "title": "Cold chain",
+        "description": "Temperature-controlled vans for grocery, pharmacy, and lab samples."
+      },
+      {
+        "title": "Reverse logistics",
+        "description": "Returns collected at the door and consolidated back to your warehouse weekly."
+      }
+    ]
+  },
+  "coverage": {
+    "eyebrow": "Coverage",
+    "title": "Ten provinces, one network",
+    "description": "LastLink runs its own depots in eight metro regions and partners for the last stretch into rural routes. Hover the map to see the lanes we move every night.",
+    "legend": "Primary lanes",
+    "hubs": [
+      {
+        "name": "Vancouver",
+        "province": "BC"
+      },
+      {
+        "name": "Calgary",
+        "province": "AB"
+      },
+      {
+        "name": "Toronto",
+        "province": "ON"
+      },
+      {
+        "name": "Ottawa",
+        "province": "ON"
+      },
+      {
+        "name": "Montreal",
+        "province": "QC"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Who we are",
+    "title": "Who's actually moving your freight",
+    "lead": "LastLink started in 2018 with four vans and a leased bay in Mississauga. We run our own fleet and hire our drivers directly — no subcontracted gig work, no different face on your route every week.",
+    "points": [
+      {
+        "title": "Drivers on payroll",
+        "description": "Every driver is an employee, paid for the full shift instead of by the parcel, and works the same routes long enough to know them."
+      },
+      {
+        "title": "Built for winter",
+        "description": "The fleet runs winter tires from October through April and our depots stay staffed on storm days, because freight still has to move."
+      },
+      {
+        "title": "Bilingual end to end",
+        "description": "Tracking pages, delivery notices, and support are in English and French everywhere we operate, not just in Quebec."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Get a quote",
+    "title": "Talk to us about your shipping",
+    "description": "Tell us roughly what you ship and where it's going. We'll come back within one business day with pricing and coverage for your lanes.",
+    "form": {
+      "name": "Name",
+      "email": "Work email",
+      "volume": "Monthly shipment volume",
+      "volume_placeholder": "Select a range",
+      "volume_options": {
+        "under_500": "Under 500 parcels",
+        "500_5k": "500 to 5,000 parcels",
+        "5k_25k": "5,000 to 25,000 parcels",
+        "over_25k": "More than 25,000 parcels"
+      },
+      "message": "What do you ship, and where to?",
+      "submit": "Send it over",
+      "sending": "Sending…",
+      "success": "Got it. We'll be in touch within one business day.",
+      "error": "That didn't go through. Email us at hello@lastlink.ca and we'll pick it up from there."
+    }
+  },
+  "footer": {
+    "tagline": "The last link in your supply chain.",
+    "rights": "All rights reserved.",
+    "bilingual": "Service in English and French",
+    "columns": {
+      "company": "Company",
+      "services": "Services",
+      "support": "Support"
+    },
+    "links": {
+      "about": "About",
+      "careers": "Careers",
+      "press": "Press",
+      "final_mile": "Final mile",
+      "cold_chain": "Cold chain",
+      "returns": "Returns",
+      "track": "Track a package",
+      "contact": "Contact",
+      "claims": "Claims"
+    },
+    "legal": {
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "developed_by": "Developed by"
+  }
+}

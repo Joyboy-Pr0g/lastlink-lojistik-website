@@ -1,0 +1,270 @@
+{
+  "seo": {
+    "title": "LastLink | Livraison du dernier kilomètre au Canada",
+    "description": "LastLink achemine vos colis du quai de l'entrepôt jusqu'à la porte, partout au Canada, avec des chauffeurs salariés, un suivi en direct et un service en français et en anglais."
+  },
+  "nav": {
+    "track": "Suivre un colis",
+    "journey": "Comment ça marche",
+    "services": "Services",
+    "coverage": "Couverture",
+    "about": "À propos",
+    "contact": "Contact",
+    "quote": "Obtenir un devis",
+    "switch_language": "Passer à l'anglais",
+    "home": "Accueil LastLink",
+    "primary": "Navigation principale",
+    "open_menu": "Ouvrir le menu",
+    "close_menu": "Fermer le menu"
+  },
+  "hero": {
+    "eyebrow": "Dernier kilomètre, partout au Canada",
+    "title_a": "Le dernier",
+    "title_b": "kilomètre de",
+    "title_c": "votre colis.",
+    "subtitle": "De Vancouver à Montréal, LastLink prend en charge l'étape qui décide si votre client vous fera encore confiance — avec des chauffeurs salariés et un suivi en direct à chaque scan.",
+    "cta_primary": "Obtenir un devis",
+    "cta_secondary": "Suivre un colis",
+    "scroll": "Défiler",
+    "ticker": [
+      "Vancouver",
+      "Calgary",
+      "Edmonton",
+      "Winnipeg",
+      "Toronto",
+      "Ottawa",
+      "Montréal",
+      "Halifax"
+    ],
+    "panel": {
+      "eyebrow": "État du réseau",
+      "title": "Opérations Canada",
+      "live": "En direct",
+      "throughput": "Colis traités — 12 dernières heures",
+      "metrics": {
+        "in_transit": "Colis en transit",
+        "lanes": "Corridors actifs ce soir",
+        "on_time": "À temps aujourd’hui"
+      },
+      "cta": "Voir la carte de couverture"
+    }
+  },
+  "journey": {
+    "eyebrow": "Comment ça marche",
+    "title": "Trois étapes entre le quai et la porte",
+    "description": "Chaque envoi suit le même trajet, qu'il arrive au centre-ville ou dans un village de quatre cents habitants.",
+    "steps": [
+      {
+        "kicker": "Étape 01",
+        "title": "Réservation et ramassage",
+        "description": "Vous réservez une plage horaire, nous scannons le colis sur sa route au dépôt. Le numéro de suivi est actif dès qu'il quitte vos mains."
+      },
+      {
+        "kicker": "Étape 02",
+        "title": "Transit transcanadien",
+        "description": "Le transport longue distance relie les plateformes régionales — Vancouver, Calgary, Toronto, Montréal — avec un scan à chaque transfert, pas seulement aux extrémités."
+      },
+      {
+        "kicker": "Étape 03",
+        "title": "Livraison à domicile",
+        "description": "Un chauffeur local termine le trajet et photographie la livraison. En cas d'absence, le colis va à l'endroit sûr que vous avez choisi, pas au dépôt."
+      }
+    ],
+    "hint": "Bougez pour avancer"
+  },
+  "track": {
+    "eyebrow": "Suivi en direct",
+    "title": "Où est le colis en ce moment ?",
+    "description": "Entrez un numéro de suivi et voyez toute la chaîne de possession. Essayez le numéro de démonstration ci-dessous.",
+    "placeholder": "ex. MM-9842-CA",
+    "label": "Numéro de suivi",
+    "submit": "Suivre",
+    "tracking": "Localisation…",
+    "demo": "Utiliser le numéro démo",
+    "not_found": "Numéro introuvable. Vérifiez le format — il ressemble à MM-0000-CA.",
+    "found": "Envoi trouvé",
+    "eta": "Arrivée estimée",
+    "eta_value": "Aujourd'hui, 16 h 20",
+    "weight": "Poids",
+    "weight_value": "2,4 kg",
+    "service": "Service",
+    "service_value": "Dernier kilomètre express",
+    "checkpoints": [
+      {
+        "title": "Ramassé",
+        "place": "Calgary, AB",
+        "time": "lun. 08:12"
+      },
+      {
+        "title": "Départ du hub",
+        "place": "Calgary, AB",
+        "time": "lun. 19:40"
+      },
+      {
+        "title": "En transit",
+        "place": "Toronto, ON",
+        "time": "mar. 14:05"
+      },
+      {
+        "title": "Arrivé à la station",
+        "place": "Ottawa, ON",
+        "time": "mer. 06:31"
+      },
+      {
+        "title": "En cours de livraison",
+        "place": "Ottawa, ON",
+        "time": "mer. 09:02"
+      }
+    ]
+  },
+  "stats": {
+    "title": "Conçu pour la façon dont les Canadiens reçoivent vraiment leurs colis",
+    "items": [
+      {
+        "value": "99,1",
+        "suffix": "%",
+        "label": "Taux de livraison à temps"
+      },
+      {
+        "value": "150",
+        "suffix": "+",
+        "label": "Communautés desservies"
+      },
+      {
+        "value": "10",
+        "suffix": "",
+        "label": "Provinces couvertes"
+      },
+      {
+        "value": "24",
+        "suffix": "/7",
+        "label": "Suivi et assistance"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Ce que nous gérons",
+    "title": "Tout ce qui vient après la porte de l'entrepôt",
+    "items": [
+      {
+        "title": "Livraison du dernier kilomètre",
+        "description": "De la plateforme régionale jusqu'à la porte, pour le commerce en ligne, le détail et les places de marché."
+      },
+      {
+        "title": "Optimisation des tournées",
+        "description": "La répartition réorganise chaque tournée le matin selon le trafic, la météo et la charge."
+      },
+      {
+        "title": "Portail de suivi en direct",
+        "description": "Vos clients voient où est leur commande, et arrêtent d'appeler votre service client."
+      },
+      {
+        "title": "Relivraison flexible",
+        "description": "Les livraisons manquées sont reprogrammées automatiquement, jusqu'à trois tentatives, sans frais."
+      },
+      {
+        "title": "Chaîne du froid",
+        "description": "Fourgons à température contrôlée pour l'épicerie, la pharmacie et les échantillons de laboratoire."
+      },
+      {
+        "title": "Logistique inverse",
+        "description": "Retours ramassés à la porte et regroupés vers votre entrepôt chaque semaine."
+      }
+    ]
+  },
+  "coverage": {
+    "eyebrow": "Couverture",
+    "title": "Dix provinces, un seul réseau",
+    "description": "LastLink exploite ses propres dépôts dans huit régions métropolitaines et s'appuie sur des partenaires pour les tournées rurales. Survolez la carte pour voir les corridors que nous empruntons chaque nuit.",
+    "legend": "Corridors principaux",
+    "hubs": [
+      {
+        "name": "Vancouver",
+        "province": "C.-B."
+      },
+      {
+        "name": "Calgary",
+        "province": "Alb."
+      },
+      {
+        "name": "Toronto",
+        "province": "Ont."
+      },
+      {
+        "name": "Ottawa",
+        "province": "Ont."
+      },
+      {
+        "name": "Montréal",
+        "province": "Qc"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Qui nous sommes",
+    "title": "Qui transporte réellement vos marchandises",
+    "lead": "LastLink a démarré en 2018 avec quatre fourgons et un quai loué à Mississauga. Nous exploitons notre propre flotte et embauchons nos chauffeurs directement — pas de sous-traitance à la tâche, pas un visage différent chaque semaine sur votre tournée.",
+    "points": [
+      {
+        "title": "Chauffeurs salariés",
+        "description": "Chaque chauffeur est un employé, payé pour son quart complet et non au colis, et reste assez longtemps sur les mêmes tournées pour les connaître."
+      },
+      {
+        "title": "Conçu pour l'hiver",
+        "description": "La flotte roule sur pneus d'hiver d'octobre à avril et nos dépôts restent ouverts les jours de tempête, parce que les marchandises doivent circuler."
+      },
+      {
+        "title": "Bilingue d'un bout à l'autre",
+        "description": "Pages de suivi, avis de livraison et assistance en français et en anglais partout où nous opérons, pas seulement au Québec."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Devis",
+    "title": "Parlons de vos expéditions",
+    "description": "Dites-nous à peu près ce que vous expédiez et où. Nous revenons vers vous en un jour ouvrable avec les tarifs et la couverture de vos corridors.",
+    "form": {
+      "name": "Nom",
+      "email": "Courriel professionnel",
+      "volume": "Volume mensuel d'envois",
+      "volume_placeholder": "Choisir une fourchette",
+      "volume_options": {
+        "under_500": "Moins de 500 colis",
+        "500_5k": "500 à 5 000 colis",
+        "5k_25k": "5 000 à 25 000 colis",
+        "over_25k": "Plus de 25 000 colis"
+      },
+      "message": "Que expédiez-vous, et vers où ?",
+      "submit": "Envoyer",
+      "sending": "Envoi…",
+      "success": "Bien reçu. Nous vous répondons en un jour ouvrable.",
+      "error": "L'envoi a échoué. Écrivez-nous à hello@lastlink.ca et nous prenons le relais."
+    }
+  },
+  "footer": {
+    "tagline": "Le dernier maillon de votre chaîne d'approvisionnement.",
+    "rights": "Tous droits réservés.",
+    "bilingual": "Service en français et en anglais",
+    "columns": {
+      "company": "Entreprise",
+      "services": "Services",
+      "support": "Assistance"
+    },
+    "links": {
+      "about": "À propos",
+      "careers": "Carrières",
+      "press": "Presse",
+      "final_mile": "Dernier kilomètre",
+      "cold_chain": "Chaîne du froid",
+      "returns": "Retours",
+      "track": "Suivre un colis",
+      "contact": "Contact",
+      "claims": "Réclamations"
+    },
+    "legal": {
+      "privacy": "Confidentialité",
+      "terms": "Conditions"
+    },
+    "developed_by": "Développé par"
+  }
+}
