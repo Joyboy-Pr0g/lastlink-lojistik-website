@@ -1,7 +1,7 @@
 {
   "seo": {
     "title": "LastLink | Final-mile delivery across Canada",
-    "description": "LastLink moves freight from the depot dock to the front door across Canada, with employee drivers, live tracking, and bilingual support in English and French."
+    "description": "LastLink moves freight from the depot dock to the front door across Canada, with employee drivers, live tracking, and bilingual support in English and Arabic."
   },
   "nav": {
     "track": "Track shipment",
@@ -11,7 +11,7 @@
     "about": "About",
     "contact": "Contact",
     "quote": "Get a quote",
-    "switch_language": "Switch to French",
+    "switch_language": "Switch to Arabic",
     "home": "LastLink home",
     "primary": "Main navigation",
     "open_menu": "Open menu",
@@ -215,7 +215,7 @@
       },
       {
         "title": "Bilingual end to end",
-        "description": "Tracking pages, delivery notices, and support are in English and French everywhere we operate, not just in Quebec."
+        "description": "Tracking pages, delivery notices, and support are in English and Arabic everywhere we operate."
       }
     ]
   },
@@ -223,6 +223,19 @@
     "eyebrow": "Get a quote",
     "title": "Talk to us about your shipping",
     "description": "Tell us roughly what you ship and where it's going. We'll come back within one business day with pricing and coverage for your lanes.",
+    "details": {
+      "title": "Contact details",
+      "address": "National address",
+      "address_lines": [
+        "JLSF3792",
+        "Salah Aldin 7933",
+        "Jeddah 22527",
+        "Saudi Arabia"
+      ],
+      "phone": "Phone",
+      "phone_value": "+(966) 0507772900",
+      "email": "Email"
+    },
     "form": {
       "name": "Name",
       "email": "Work email",
@@ -244,7 +257,9 @@
   "footer": {
     "tagline": "The last link in your supply chain.",
     "rights": "All rights reserved.",
-    "bilingual": "Service in English and French",
+    "bilingual": "Service in English and Arabic",
+    "address_title": "National address",
+    "phone_title": "Phone",
     "columns": {
       "company": "Company",
       "services": "Services",

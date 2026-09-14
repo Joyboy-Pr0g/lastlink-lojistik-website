@@ -28,7 +28,8 @@ export default {
       },
       fontFamily: {
         display: ["'Space Grotesk'", "system-ui", "sans-serif"],
-        sans: ["Inter", "system-ui", "sans-serif"]
+        sans: ["Inter", "system-ui", "sans-serif"],
+        arabic: ["Tajawal", "system-ui", "sans-serif"]
       },
       boxShadow: {
         glow: "0 0 0 1px rgba(101,175,2,.35), 0 8px 30px -6px rgba(101,175,2,.45)",

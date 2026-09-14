@@ -1,13 +1,16 @@
 import { FormEvent, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { AnimatePresence, motion } from "framer-motion";
-import { Send } from "lucide-react";
+import { MapPin, Phone, Send } from "lucide-react";
 import GlowButton from "@/components/ui/GlowButton";
 import { Reveal } from "@/components/ui/Reveal";
 import NetworkBackdrop from "@/components/ui/NetworkBackdrop";
 import { EASE, slideFrom } from "@/lib/motion";
 
 const CONTACT_ENDPOINT = "https://formspree.io/f/placeholder";
+
+/** Dialable form of contact.details.phone_value — no spaces, brackets or trunk zero. */
+const PHONE_HREF = "tel:+966507772900";
 
 const VOLUME_KEYS = ["under_500", "500_5k", "5k_25k", "over_25k"];
 
@@ -20,6 +23,7 @@ type SubmitStatus = "idle" | "sending" | "sent" | "error";
 
 const Contact = () => {
   const { t } = useTranslation();
+  const addressLines = t("contact.details.address_lines", { returnObjects: true }) as string[];
   const [status, setStatus] = useState<SubmitStatus>("idle");
 
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
@@ -61,6 +65,36 @@ const Contact = () => {
             {t("contact.title")}
           </h2>
           <p className="mt-4 text-mist">{t("contact.description")}</p>
+
+          <div className="mt-9 grid gap-4 sm:grid-cols-2 lg:grid-cols-1">
+            <div className="glass rounded-2xl p-5">
+              <span className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[.16em] text-mist-faint">
+                <MapPin className="h-3.5 w-3.5 text-green" aria-hidden />
+                {t("contact.details.address")}
+              </span>
+              <address className="mt-3 space-y-0.5 text-sm not-italic text-mist">
+                {addressLines.map((line) => (
+                  <span key={line} className="block">
+                    {line}
+                  </span>
+                ))}
+              </address>
+            </div>
+
+            <div className="glass rounded-2xl p-5">
+              <span className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[.16em] text-mist-faint">
+                <Phone className="h-3.5 w-3.5 text-green" aria-hidden />
+                {t("contact.details.phone")}
+              </span>
+              <a
+                href={PHONE_HREF}
+                dir="ltr"
+                className="mt-3 inline-block text-sm text-mist transition-colors hover:text-green-light"
+              >
+                {t("contact.details.phone_value")}
+              </a>
+            </div>
+          </div>
         </Reveal>
 
         <Reveal variants={slideFrom(40)}>

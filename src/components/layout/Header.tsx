@@ -20,24 +20,39 @@ const LINKS = [
   { href: "#about", key: "nav.about" }
 ] as const;
 
-/** Nav label whose glyphs lift out of the plane one after another on hover. */
-const NavLabel = ({ text }: { text: string }) => (
+/**
+ * Nav label whose glyphs lift out of the plane one after another on hover.
+ * Arabic is cursive, so its letters stay in one span — splitting them would
+ * break the joining and render the word as disconnected forms.
+ */
+const LIFT = {
+  rest: { y: 0, rotateX: 0, color: "rgb(199 214 228)" },
+  hover: { y: -2, rotateX: -18, color: "rgb(255 255 255)" }
+};
+
+const NavLabel = ({ text, split = true }: { text: string; split?: boolean }) =>
+  !split ? (
+    <motion.span
+      className="preserve-3d relative z-10 inline-block will-change-transform"
+      variants={LIFT}
+      transition={{ duration: 0.32, ease: EASE }}
+    >
+      {text}
+    </motion.span>
+  ) : (
   <span className="preserve-3d relative z-10 inline-flex">
     {text.split("").map((char, index) => (
       <motion.span
         key={`${char}-${index}`}
         className="inline-block will-change-transform"
-        variants={{
-          rest: { y: 0, rotateX: 0, color: "rgb(199 214 228)" },
-          hover: { y: -2, rotateX: -18, color: "rgb(255 255 255)" }
-        }}
+        variants={LIFT}
         transition={{ duration: 0.32, ease: EASE, delay: index * 0.018 }}
       >
         {char === " " ? " " : char}
       </motion.span>
     ))}
   </span>
-);
+  );
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -46,7 +61,8 @@ const Header = () => {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState<string>("");
 
-  const otherLang = i18n.language.startsWith("fr") ? "en" : "fr";
+  const isArabic = i18n.language.startsWith("ar");
+  const otherLang = isArabic ? "en" : "ar";
   const progress = useSpring(scrollYProgress, { stiffness: 120, damping: 26, mass: 0.4 });
 
   useMotionValueEvent(scrollY, "change", (value) => setCondensed(value > 40));
@@ -114,7 +130,7 @@ const Header = () => {
                     animate="rest"
                     className="preserve-3d group relative rounded-full px-4 py-2.5 text-[13px] font-medium tracking-tight"
                   >
-                    <NavLabel text={t(link.key)} />
+                    <NavLabel text={t(link.key)} split={!isArabic} />
 
                     {/* Hover pill. */}
                     <motion.span
@@ -146,7 +162,7 @@ const Header = () => {
                   className="h-3.5 w-3.5 transition-transform duration-500 group-hover:rotate-180"
                   aria-hidden
                 />
-                <span lang={otherLang}>{otherLang.toUpperCase()}</span>
+                <span lang={otherLang}>{otherLang === "ar" ? "عربي" : "EN"}</span>
               </button>
 
               <div className="hidden sm:block">

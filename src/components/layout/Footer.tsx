@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Languages, Linkedin, Mail, Twitter } from "lucide-react";
+import { Languages, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
 import Logo from "@/components/ui/Logo";
 
@@ -30,6 +30,9 @@ const COLUMNS = [
   }
 ] as const;
 
+/** Dialable form of contact.details.phone_value — no spaces, brackets or trunk zero. */
+const PHONE_HREF = "tel:+966507772900";
+
 const SOCIALS = [
   { Icon: Linkedin, href: "https://www.linkedin.com", label: "LinkedIn" },
   { Icon: Twitter, href: "https://x.com", label: "X" },
@@ -38,6 +41,7 @@ const SOCIALS = [
 
 const Footer = () => {
   const { t } = useTranslation();
+  const addressLines = t("contact.details.address_lines", { returnObjects: true }) as string[];
 
   return (
     <footer className="relative overflow-hidden border-t border-white/10 bg-navy-950">
@@ -50,7 +54,41 @@ const Footer = () => {
 
             <p className="mt-5 max-w-xs text-sm text-mist-dim">{t("footer.tagline")}</p>
 
-            <p className="mt-5 inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1.5 text-[11px] font-medium text-mist-dim">
+            <div className="mt-6 space-y-4 text-sm text-mist-dim">
+              <div className="flex gap-2.5">
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-green" aria-hidden />
+                <div>
+                  <span className="block text-[11px] font-semibold uppercase tracking-[.16em] text-mist-faint">
+                    {t("footer.address_title")}
+                  </span>
+                  <address className="mt-1.5 space-y-0.5 not-italic">
+                    {addressLines.map((line) => (
+                      <span key={line} className="block">
+                        {line}
+                      </span>
+                    ))}
+                  </address>
+                </div>
+              </div>
+
+              <div className="flex gap-2.5">
+                <Phone className="mt-0.5 h-4 w-4 shrink-0 text-green" aria-hidden />
+                <div>
+                  <span className="block text-[11px] font-semibold uppercase tracking-[.16em] text-mist-faint">
+                    {t("footer.phone_title")}
+                  </span>
+                  <a
+                    href={PHONE_HREF}
+                    dir="ltr"
+                    className="mt-1.5 inline-block transition-colors hover:text-green-light"
+                  >
+                    {t("contact.details.phone_value")}
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <p className="mt-6 inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1.5 text-[11px] font-medium text-mist-dim">
               <Languages className="h-3.5 w-3.5 text-green" aria-hidden />
               {t("footer.bilingual")}
             </p>

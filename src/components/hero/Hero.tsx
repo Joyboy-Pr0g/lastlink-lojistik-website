@@ -177,6 +177,9 @@ const Hero = () => {
         {/* City ticker along the bottom edge. */}
         <div
           aria-hidden
+          // The marquee translates along -X, so its track has to stay LTR even
+          // in Arabic or the duplicated copy scrolls away instead of looping.
+          dir="ltr"
           className="relative mt-16 flex overflow-hidden [mask-image:linear-gradient(90deg,transparent,#000_12%,#000_88%,transparent)]"
         >
           <div className="flex shrink-0 animate-marquee items-center gap-10 pr-10">

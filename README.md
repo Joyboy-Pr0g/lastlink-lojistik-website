@@ -1,7 +1,7 @@
 # LastLink
 
 Single-page site for LastLink, a final-mile delivery company operating across Canada.
-Dark theme, bilingual (EN/FR), built around 3D video and WebGL.
+Dark theme, bilingual (EN/AR, with RTL and the Tajawal font in Arabic), built around 3D video and WebGL.
 
 **Stack:** Vite · React 18 · TypeScript · Tailwind · Framer Motion · React Three Fiber · GSAP ScrollTrigger · Lenis · lucide-react
 
@@ -57,7 +57,7 @@ src/
 │   ├── layout/        Header, Footer
 │   ├── sections/      Track, Stats, Services, Coverage, About, Contact
 │   └── ui/            Tilt, GlowButton, Reveal, VideoPanel, NetworkBackdrop, Logo
-├── i18n/              English and French copy — no other locales
+├── i18n/              English and Arabic copy — no other locales
 ├── lib/               motion tokens, capability detection, smooth scroll, SEO, media queries
 └── styles/global.css  Tailwind layers, .glass / .shell / .scene-3d primitives
 ```

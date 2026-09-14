@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-const LANGUAGES = ["en", "fr"];
+const LANGUAGES = ["en", "ar"];
 const LD_ID = "lastlink-organization";
 
 const upsertMeta = (name: string, content: string) => {
@@ -52,18 +52,27 @@ const upsertOrganization = (origin: string, description: string) => {
     description,
     areaServed: { "@type": "Country", name: "Canada" },
     knowsLanguage: LANGUAGES,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "JLSF3792, Salah Aldin 7933",
+      addressLocality: "Jeddah",
+      postalCode: "22527",
+      addressCountry: "SA"
+    },
+    telephone: "+966507772900",
     contactPoint: {
       "@type": "ContactPoint",
       contactType: "sales",
+      telephone: "+966507772900",
       email: "hello@lastlink.ca",
-      availableLanguage: ["English", "French"]
+      availableLanguage: ["English", "Arabic"]
     }
   });
 };
 
 export const useDocumentMeta = () => {
   const { t, i18n } = useTranslation();
-  const language = i18n.language.startsWith("fr") ? "fr" : "en";
+  const language = i18n.language.startsWith("ar") ? "ar" : "en";
   const title = t("seo.title");
   const description = t("seo.description");
 
@@ -71,6 +80,8 @@ export const useDocumentMeta = () => {
     const { origin, pathname } = window.location;
 
     document.documentElement.lang = language;
+    // Arabic reads right-to-left; the flag also drives the Tajawal font in CSS.
+    document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
     document.title = title;
     upsertMeta("description", description);
 

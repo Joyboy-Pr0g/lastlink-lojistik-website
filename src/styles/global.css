@@ -39,6 +39,22 @@
     text-wrap: balance;
   }
 
+  /* Arabic runs on Tajawal throughout — Space Grotesk and Inter carry no Arabic
+     glyphs, so headings switch over with the body copy. */
+  html[lang="ar"] body,
+  html[lang="ar"] h1,
+  html[lang="ar"] h2,
+  html[lang="ar"] h3,
+  html[lang="ar"] h4 {
+    @apply font-arabic;
+  }
+
+  /* Tajawal has no tight tracking design; the latin letter-spacing utilities
+     used for eyebrows and labels open Arabic words up unnaturally. */
+  html[lang="ar"] * {
+    letter-spacing: normal !important;
+  }
+
   ::selection {
     background: var(--green);
     color: #01090f;
