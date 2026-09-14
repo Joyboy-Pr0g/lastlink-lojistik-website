@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const LANGUAGES = ["en", "ar"];
-const LD_ID = "lastlink-organization";
+const LD_ID = "lastlinkx-organization";
 
 const upsertMeta = (name: string, content: string) => {
   const selector = `meta[name="${name}"]`;
@@ -46,7 +46,7 @@ const upsertOrganization = (origin: string, description: string) => {
   tag.textContent = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: "LastLink",
+    name: "LastLinkX",
     url: origin,
     logo: `${origin}/logo.svg`,
     description,
@@ -64,16 +64,21 @@ const upsertOrganization = (origin: string, description: string) => {
       "@type": "ContactPoint",
       contactType: "sales",
       telephone: "+966507772900",
-      email: "hello@lastlink.ca",
+      email: "hello@lastlinkx.com",
       availableLanguage: ["English", "Arabic"]
     }
   });
 };
 
-export const useDocumentMeta = () => {
+/**
+ * Keeps <html lang/dir>, the title, the meta description and the hreflang set
+ * in step with the active language. Sub-pages pass their own heading so the
+ * tab reads "Privacy Policy | LastLinkX" rather than the home page's title.
+ */
+export const useDocumentMeta = (pageTitle?: string) => {
   const { t, i18n } = useTranslation();
   const language = i18n.language.startsWith("ar") ? "ar" : "en";
-  const title = t("seo.title");
+  const title = pageTitle ? `${pageTitle} | LastLinkX` : t("seo.title");
   const description = t("seo.description");
 
   useEffect(() => {

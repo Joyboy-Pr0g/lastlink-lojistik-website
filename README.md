@@ -1,7 +1,8 @@
-# LastLink
+# LastLinkX
 
-Single-page site for LastLink, a final-mile delivery company operating across Canada.
-Dark theme, bilingual (EN/AR, with RTL and the Tajawal font in Arabic), built around 3D video and WebGL.
+Marketing site for LastLinkX, a final-mile delivery company. One long home page plus two
+legal pages, dark theme, bilingual (EN/AR, with RTL and the Tajawal font in Arabic), built
+around 3D video and WebGL.
 
 **Stack:** Vite · React 18 · TypeScript · Tailwind · Framer Motion · React Three Fiber · GSAP ScrollTrigger · Lenis · lucide-react
 
@@ -46,6 +47,17 @@ through. Videos also pause when scrolled off screen.
 
 Missing video files degrade gracefully: `VideoPanel` swaps in a gradient, `Logo` swaps in the SVG.
 
+## Pages
+
+The build is a Vite **multi-page** build — `index.html`, `privacy/index.html` and
+`terms/index.html` are separate Rollup inputs listed in `vite.config.ts`. That makes
+`/privacy/` and `/terms/` real URLs that work on any static host without an SPA rewrite
+rule, which a client-side router would have required.
+
+Both legal documents share `components/legal/LegalPage.tsx` and read their copy from the
+`legal.privacy` / `legal.terms` blocks in each locale file. To add a third page, copy a
+folder, add the entry to `rollupOptions.input`, and add the locale block.
+
 ## Structure
 
 ```
@@ -55,10 +67,12 @@ src/
 │   ├── journey/       Scroll-driven "how it works", plus the MediaHud instrument overlay
 │   ├── coverage/      CoverageScene — the R3F Canada map with animated lanes
 │   ├── layout/        Header, Footer
+│   ├── legal/         LegalPage — the shared shell for Privacy and Terms
 │   ├── sections/      Track, Stats, Services, Coverage, About, Contact
 │   └── ui/            Tilt, GlowButton, Reveal, VideoPanel, NetworkBackdrop, Logo
+├── pages/             Entry points for the privacy/ and terms/ HTML files
 ├── i18n/              English and Arabic copy — no other locales
-├── lib/               motion tokens, capability detection, smooth scroll, SEO, media queries
+├── lib/               motion tokens, capability detection, smooth scroll, SEO, routes, media queries
 └── styles/global.css  Tailwind layers, .glass / .shell / .scene-3d primitives
 ```
 

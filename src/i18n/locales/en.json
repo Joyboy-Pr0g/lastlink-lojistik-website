@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "LastLink | Final-mile delivery across Canada",
-    "description": "LastLink moves freight from the depot dock to the front door across Canada, with employee drivers, live tracking, and bilingual support in English and Arabic."
+    "title": "LastLinkX | Final-mile delivery across Canada",
+    "description": "LastLinkX moves freight from the depot dock to the front door across Canada, with employee drivers, live tracking, and bilingual support in English and Arabic."
   },
   "nav": {
     "track": "Track shipment",
@@ -12,7 +12,7 @@
     "contact": "Contact",
     "quote": "Get a quote",
     "switch_language": "Switch to Arabic",
-    "home": "LastLink home",
+    "home": "LastLinkX home",
     "primary": "Main navigation",
     "open_menu": "Open menu",
     "close_menu": "Close menu"
@@ -22,7 +22,7 @@
     "title_a": "Your package's",
     "title_b": "last kilometre,",
     "title_c": "handled right.",
-    "subtitle": "From Vancouver to Montreal, LastLink runs the stretch that decides whether your customer trusts you again — with drivers on payroll and live tracking at every scan.",
+    "subtitle": "From Vancouver to Montreal, LastLinkX runs the stretch that decides whether your customer trusts you again — with drivers on payroll and live tracking at every scan.",
     "cta_primary": "Get a shipping quote",
     "cta_secondary": "Track a package",
     "scroll": "Scroll",
@@ -175,7 +175,7 @@
   "coverage": {
     "eyebrow": "Coverage",
     "title": "Ten provinces, one network",
-    "description": "LastLink runs its own depots in eight metro regions and partners for the last stretch into rural routes. Hover the map to see the lanes we move every night.",
+    "description": "LastLinkX runs its own depots in eight metro regions and partners for the last stretch into rural routes. Hover the map to see the lanes we move every night.",
     "legend": "Primary lanes",
     "hubs": [
       {
@@ -203,7 +203,7 @@
   "about": {
     "eyebrow": "Who we are",
     "title": "Who's actually moving your freight",
-    "lead": "LastLink started in 2018 with four vans and a leased bay in Mississauga. We run our own fleet and hire our drivers directly — no subcontracted gig work, no different face on your route every week.",
+    "lead": "LastLinkX started in 2018 with four vans and a leased bay in Mississauga. We run our own fleet and hire our drivers directly — no subcontracted gig work, no different face on your route every week.",
     "points": [
       {
         "title": "Drivers on payroll",
@@ -251,7 +251,7 @@
       "submit": "Send it over",
       "sending": "Sending…",
       "success": "Got it. We'll be in touch within one business day.",
-      "error": "That didn't go through. Email us at hello@lastlink.ca and we'll pick it up from there."
+      "error": "That didn't go through. Email us at hello@lastlinkx.com and we'll pick it up from there."
     }
   },
   "footer": {
@@ -281,5 +281,193 @@
       "terms": "Terms"
     },
     "developed_by": "Developed by"
+  },
+  "legal": {
+    "back": "Back to home",
+    "updated_label": "Last updated",
+    "updated": "14 September 2026",
+    "toc": "On this page",
+    "contact_title": "Questions about this page?",
+    "contact_body": "Write to us at hello@lastlinkx.com or call +(966) 0507772900. Our registered address is JLSF3792, Salah Aldin 7933, Jeddah 22527, Saudi Arabia.",
+    "privacy": {
+      "eyebrow": "Legal",
+      "title": "Privacy Policy",
+      "intro": "This policy explains what LastLinkX collects when you use lastlinkx.com or ship with us, why we collect it, and what you can ask us to do with it. We keep it in plain language on purpose — if anything here is unclear, ask us and we will explain it.",
+      "sections": [
+        {
+          "title": "Who we are",
+          "body": [
+            "LastLinkX is a final-mile delivery and logistics company. For the purposes of this policy we are the controller of the personal data described below.",
+            "Registered address: JLSF3792, Salah Aldin 7933, Jeddah 22527, Saudi Arabia. Phone: +(966) 0507772900. Email: hello@lastlinkx.com."
+          ]
+        },
+        {
+          "title": "Information we collect",
+          "body": [
+            "Shipment data. Sender and recipient names, delivery and pickup addresses, phone numbers, email addresses, parcel contents as declared, weight, dimensions, and any delivery instructions you give us.",
+            "Delivery evidence. Scan events along the route, timestamps, GPS location of the scan, proof-of-delivery photographs, and the name or signature of whoever accepted the parcel.",
+            "Account and enquiry data. What you type into our quote form — your name, work email, monthly volume, and message.",
+            "Technical data. IP address, browser and device type, pages viewed, and the language you selected. This is collected automatically when you use the site."
+          ]
+        },
+        {
+          "title": "How we use it",
+          "body": [
+            "To move your shipment: routing it, dispatching a driver, attempting delivery, and proving the parcel arrived.",
+            "To let you and your recipient track a parcel, and to send delivery notifications.",
+            "To answer quote requests and support enquiries, and to invoice for completed work.",
+            "To investigate claims for loss, damage, or delay, and to resolve disputes.",
+            "To keep the network secure and to improve routing, coverage, and the website itself."
+          ]
+        },
+        {
+          "title": "Legal basis",
+          "body": [
+            "We process shipment data because it is necessary to perform the delivery contract between us. We process enquiry data on the basis of your request. We keep certain records because tax, customs, and commercial law require us to. Where we rely on your consent — for example, optional marketing email — you can withdraw it at any time."
+          ]
+        },
+        {
+          "title": "Who we share it with",
+          "body": [
+            "Our delivery partners, where a route's final stretch is run by a partner carrier. They receive only what is needed to complete that delivery.",
+            "Our merchant customers, who receive tracking and delivery evidence for the shipments they sent.",
+            "Service providers who host our systems, send our notifications, and process payments, under contract and only on our instructions.",
+            "Authorities, customs, and regulators where the law requires it.",
+            "We do not sell personal data, and we do not share it with advertisers."
+          ]
+        },
+        {
+          "title": "Cookies",
+          "body": [
+            "The site stores your language choice in your browser so it is remembered on your next visit. We use a small number of analytics cookies to understand which pages are used and where people get stuck. You can clear or block cookies in your browser settings; the language preference will simply reset to your browser default."
+          ]
+        },
+        {
+          "title": "How long we keep it",
+          "body": [
+            "Shipment and delivery-evidence records are kept for the period required to handle claims and to meet accounting and tax obligations, normally up to ten years from the date of delivery. Quote enquiries that do not become accounts are deleted within twenty-four months. Technical logs are kept for up to twelve months."
+          ]
+        },
+        {
+          "title": "Security",
+          "body": [
+            "Data is transmitted over encrypted connections and stored on access-controlled systems. Drivers access only the stops on their own route for the day. We review access rights regularly and require our processors to meet the same standard."
+          ]
+        },
+        {
+          "title": "Your rights",
+          "body": [
+            "You can ask us for a copy of the personal data we hold about you, ask us to correct it if it is wrong, ask us to delete it where we are not required to keep it, object to a particular use, or ask for your data in a portable format.",
+            "Write to hello@lastlinkx.com and we will respond within thirty days. If you are not satisfied with our answer, you may complain to the competent data protection authority in the Kingdom of Saudi Arabia."
+          ]
+        },
+        {
+          "title": "Transfers outside the Kingdom",
+          "body": [
+            "Some of our systems and partner carriers operate outside Saudi Arabia. Where personal data is transferred abroad, we do so under contractual safeguards that hold the recipient to the standard of protection set out in this policy and in applicable law."
+          ]
+        },
+        {
+          "title": "Children",
+          "body": [
+            "Our services are intended for businesses and adults. We do not knowingly collect personal data from children. If you believe a child has given us data, contact us and we will remove it."
+          ]
+        },
+        {
+          "title": "Changes to this policy",
+          "body": [
+            "We update this page when our practices change. The date at the top of the page always reflects the current version. Material changes affecting shipments in progress will be notified to account holders by email."
+          ]
+        }
+      ]
+    },
+    "terms": {
+      "eyebrow": "Legal",
+      "title": "Terms of Service",
+      "intro": "These terms govern your use of lastlinkx.com and the delivery services LastLinkX provides. By booking a shipment or using this site, you accept them. Where you have signed a separate written agreement with us, that agreement takes precedence over anything below.",
+      "sections": [
+        {
+          "title": "The service",
+          "body": [
+            "LastLinkX collects, transports, and delivers parcels and freight, and provides tracking and related logistics services. Service availability depends on the route, the parcel, and the destination; we will tell you before booking if we cannot serve a lane."
+          ]
+        },
+        {
+          "title": "Quotes and booking",
+          "body": [
+            "Quotes are based on the weight, dimensions, contents, and destination you declare. If the parcel we collect differs from what you declared, we may re-rate the shipment, hold it, or return it at your cost.",
+            "A booking is confirmed when we issue a tracking number. Pickup windows are targets, not guarantees."
+          ]
+        },
+        {
+          "title": "What we will not carry",
+          "body": [
+            "Cash, negotiable instruments, and precious metals or stones. Firearms, ammunition, and explosives. Illegal drugs, and any item prohibited under the laws of the Kingdom of Saudi Arabia or of any country the shipment passes through. Live animals. Human remains. Hazardous materials, except where agreed in writing in advance and correctly declared and packaged.",
+            "If we discover a prohibited item in a parcel, we may hold it, hand it to the authorities, or dispose of it, and you remain liable for any resulting cost."
+          ]
+        },
+        {
+          "title": "Packaging and labelling",
+          "body": [
+            "You are responsible for packaging each parcel so it survives normal handling in a sorting network, and for attaching the label we provide so it is readable and undamaged. We are not liable for damage that results from inadequate packaging."
+          ]
+        },
+        {
+          "title": "Delivery and attempts",
+          "body": [
+            "We deliver to the address given at booking. Where nobody is available, we deliver to the safe place nominated by the recipient, or we make up to three delivery attempts.",
+            "After the final attempt, the parcel is held for ten days and then returned to the sender. Return transport is charged at the standard rate for the lane.",
+            "Estimated arrival times shown in tracking are forecasts based on current network conditions, not contractual commitments."
+          ]
+        },
+        {
+          "title": "Rates and payment",
+          "body": [
+            "Invoices are issued against completed shipments and are payable within the term stated on the invoice. Prices exclude VAT and any customs duty, which are charged in addition where applicable.",
+            "We may suspend collections on an account with an overdue balance, after notifying you in writing."
+          ]
+        },
+        {
+          "title": "Liability",
+          "body": [
+            "We are liable for loss of or damage to a parcel while it is in our custody, up to the declared value of the parcel or the liability limit stated in your rate agreement, whichever is lower. Where no value has been declared, the default limit stated at booking applies.",
+            "We are not liable for indirect or consequential loss, including lost profit, lost sales, or reputational harm.",
+            "For high-value goods, declare the value at booking and take the additional cover offered. Undeclared value cannot be claimed after the fact."
+          ]
+        },
+        {
+          "title": "Claims",
+          "body": [
+            "Report visible damage at the point of delivery and confirm it to us in writing within seven days. Report non-delivery within thirty days of the booking date.",
+            "Send claims to hello@lastlinkx.com with the tracking number, photographs, and a commercial invoice showing the value of the goods. We acknowledge claims within two business days and aim to resolve them within thirty days."
+          ]
+        },
+        {
+          "title": "Events outside our control",
+          "body": [
+            "We are not in breach of these terms where performance is prevented or delayed by events beyond our reasonable control, including severe weather, road closures, strikes, civil unrest, and acts of government. We will keep you informed and resume service as soon as it is safe to do so."
+          ]
+        },
+        {
+          "title": "Using this website",
+          "body": [
+            "The site, its content, and the LastLinkX name and logo belong to us. You may use the site to obtain quotes, track shipments, and contact us. You may not scrape it, resell its content, or use automated tools against the tracking service.",
+            "Tracking data is provided for information. Occasional scan gaps and timing discrepancies do not, on their own, indicate that a shipment is lost."
+          ]
+        },
+        {
+          "title": "Governing law",
+          "body": [
+            "These terms are governed by the laws of the Kingdom of Saudi Arabia. Disputes that cannot be settled between us will be heard by the competent courts in Jeddah."
+          ]
+        },
+        {
+          "title": "Changes to these terms",
+          "body": [
+            "We may update these terms. The version in force for a shipment is the one published on the date the booking was confirmed. The date at the top of this page shows the current version."
+          ]
+        }
+      ]
+    }
   }
 }

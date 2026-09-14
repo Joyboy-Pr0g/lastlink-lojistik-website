@@ -57,12 +57,12 @@ const LogoMark = () => {
  * would disappear against the dark page, so it sits on a light chip that keeps
  * the original artwork legible and on-brand.
  */
-const Logo = ({ className = "" }: { className?: string }) => {
+const Logo = ({ className = "", href = "#top" }: { className?: string; href?: string }) => {
   const { t } = useTranslation();
 
   return (
     <motion.a
-      href="#top"
+      href={href}
       aria-label={t("nav.home")}
       initial="rest"
       whileHover="hover"
@@ -89,7 +89,7 @@ const Logo = ({ className = "" }: { className?: string }) => {
       </motion.span>
 
       <span className="font-display text-[17px] font-bold leading-none tracking-[-0.02em] text-white">
-        Last<span className="text-green">Link</span>
+        Last<span className="text-green">LinkX</span>
       </span>
     </motion.a>
   );
