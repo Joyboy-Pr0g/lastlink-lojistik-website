@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { BadgeCheck, Languages, Snowflake } from "lucide-react";
+import { BadgeCheck, Languages, ThermometerSun } from "lucide-react";
 import { Reveal, RevealGroup, RevealItem } from "@/components/ui/Reveal";
 import NetworkBackdrop from "@/components/ui/NetworkBackdrop";
 import Tilt from "@/components/ui/Tilt";
@@ -7,7 +7,7 @@ import { slideFrom } from "@/lib/motion";
 
 type Point = { title: string; description: string };
 
-const ICONS = [BadgeCheck, Snowflake, Languages];
+const ICONS = [BadgeCheck, ThermometerSun, Languages];
 
 const About = () => {
   const { t } = useTranslation();

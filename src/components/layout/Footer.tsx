@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Languages, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
+import { Globe2, Languages, Linkedin, Mail, MapPin, Phone, Twitter } from "lucide-react";
 import { Reveal } from "@/components/ui/Reveal";
 import Logo from "@/components/ui/Logo";
 import { ROUTES } from "@/lib/routes";
@@ -17,8 +17,8 @@ const COLUMNS = [
     key: "services",
     links: [
       { key: "final_mile", href: "#services" },
-      { key: "cold_chain", href: "#services" },
-      { key: "returns", href: "#services" }
+      { key: "cross_border", href: "#coverage" },
+      { key: "cold_chain", href: "#services" }
     ]
   },
   {
@@ -122,10 +122,16 @@ const Footer = ({ anchorBase = "" }: { anchorBase?: string }) => {
                   last column so they do not lengthen the brand column. */}
               {index === COLUMNS.length - 1 && (
                 <>
-                  <span className="mt-6 inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1.5 text-[11px] font-medium text-mist-dim">
-                    <Languages className="h-3.5 w-3.5 text-green" aria-hidden />
-                    {t("footer.bilingual")}
-                  </span>
+                  <div className="mt-6 flex flex-wrap gap-2">
+                    <span className="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1.5 text-[11px] font-medium text-mist-dim">
+                      <Globe2 className="h-3.5 w-3.5 text-green" aria-hidden />
+                      {t("footer.countries")}
+                    </span>
+                    <span className="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1.5 text-[11px] font-medium text-mist-dim">
+                      <Languages className="h-3.5 w-3.5 text-green" aria-hidden />
+                      {t("footer.bilingual")}
+                    </span>
+                  </div>
 
                   <div className="mt-4 flex items-center gap-2">
                     {SOCIALS.map(({ Icon, href, label }) => (

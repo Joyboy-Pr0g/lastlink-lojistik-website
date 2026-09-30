@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { motion, useScroll, useTransform } from "framer-motion";
 import {
   CameraOff,
+  FileCheck2,
   Home,
   MapPin,
   PackageCheck,
@@ -12,8 +13,7 @@ import {
   ScanLine,
   ShieldCheck,
   Thermometer,
-  Timer,
-  Truck
+  Timer
 } from "lucide-react";
 import VideoPanel from "@/components/ui/VideoPanel";
 import MediaHud from "@/components/journey/MediaHud";
@@ -36,7 +36,7 @@ const HUD_CHIPS = [
   ],
   [
     { Icon: Radio, label: "GPS lock" },
-    { Icon: Truck, label: "Lane active" },
+    { Icon: FileCheck2, label: "Customs cleared" },
     { Icon: Timer, label: "On schedule" }
   ],
   [

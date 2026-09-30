@@ -12,8 +12,8 @@ type Checkpoint = { title: string; place: string; time: string };
 type Status = "idle" | "searching" | "found" | "missing";
 
 const DEMO_ID = "MM-9842-CA";
-/** Any MM-0000-CA shaped number resolves to the demo shipment. */
-const ID_PATTERN = /^MM-\d{4}-CA$/i;
+/** Any MM-0000-CA or MM-0000-SA shaped number resolves to the demo shipment. */
+const ID_PATTERN = /^MM-\d{4}-(CA|SA)$/i;
 
 const Track = () => {
   const { t } = useTranslation();

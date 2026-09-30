@@ -1,7 +1,7 @@
 {
   "seo": {
-    "title": "LastLinkX | Final-mile delivery across Canada",
-    "description": "LastLinkX moves freight from the depot dock to the front door across Canada, with employee drivers, live tracking, and bilingual support in English and Arabic."
+    "title": "LastLinkX | Final-mile delivery in Canada and Saudi Arabia",
+    "description": "LastLinkX moves freight from the depot dock to the front door across Canada and Saudi Arabia, and runs the cross-border lane between them — with employee drivers, live tracking, and support in English and Arabic."
   },
   "nav": {
     "track": "Track shipment",
@@ -18,27 +18,29 @@
     "close_menu": "Close menu"
   },
   "hero": {
-    "eyebrow": "Canada-wide final mile",
+    "eyebrow": "Canada · Saudi Arabia final mile",
     "title_a": "Your package's",
     "title_b": "last kilometre,",
     "title_c": "handled right.",
-    "subtitle": "From Vancouver to Montreal, LastLinkX runs the stretch that decides whether your customer trusts you again — with drivers on payroll and live tracking at every scan.",
+    "subtitle": "From Vancouver to Montreal and from Jeddah to Riyadh, LastLinkX runs the stretch that decides whether your customer trusts you again — and the lane that links the two countries — with drivers on payroll and live tracking at every scan.",
     "cta_primary": "Get a shipping quote",
     "cta_secondary": "Track a package",
     "scroll": "Scroll",
     "ticker": [
       "Vancouver",
+      "Jeddah",
       "Calgary",
-      "Edmonton",
-      "Winnipeg",
+      "Riyadh",
       "Toronto",
+      "Dammam",
       "Ottawa",
+      "Madinah",
       "Montreal",
-      "Halifax"
+      "Makkah"
     ],
     "panel": {
       "eyebrow": "Network status",
-      "title": "Canada operations",
+      "title": "Canada & Saudi Arabia operations",
       "live": "Live",
       "throughput": "Parcel throughput — last 12 hours",
       "metrics": {
@@ -52,17 +54,17 @@
   "journey": {
     "eyebrow": "How it works",
     "title": "Three moves between the dock and the door",
-    "description": "Every shipment runs the same path, whether it lands downtown or in a town of four hundred people.",
+    "description": "Every shipment runs the same path, whether it lands in downtown Toronto, a Riyadh district, or a town of four hundred people — and whether it stays in one country or crosses between Canada and Saudi Arabia.",
     "steps": [
       {
         "kicker": "Step 01",
         "title": "Instant booking & pickup",
-        "description": "You book a window, we scan the parcel onto its route at the depot. The tracking number goes live the moment it leaves your hands."
+        "description": "You book a window, we scan the parcel onto its route at the depot in either country. The tracking number goes live the moment it leaves your hands."
       },
       {
         "kicker": "Step 02",
-        "title": "Cross-Canada transit",
-        "description": "Line-haul moves the freight between regional hubs — Vancouver, Calgary, Toronto, Montreal — with a scan at every handoff, not just at the ends."
+        "title": "Hub-to-hub & cross-border transit",
+        "description": "Line-haul moves the freight between regional hubs — Vancouver, Toronto and Montreal in Canada; Jeddah, Riyadh and Dammam in Saudi Arabia. Shipments between the two countries fly or sail through our gateways with customs cleared on both ends, and a scan at every handoff."
       },
       {
         "kicker": "Step 03",
@@ -75,50 +77,50 @@
   "track": {
     "eyebrow": "Live tracking",
     "title": "Where is it right now?",
-    "description": "Drop in a tracking number and watch the chain of custody. Try the demo number below.",
+    "description": "Drop in a tracking number and watch the chain of custody — across town, across the country, or from Canada to Saudi Arabia. Try the demo number below.",
     "placeholder": "e.g. MM-9842-CA",
     "label": "Tracking number",
     "submit": "Track",
     "tracking": "Locating…",
     "demo": "Use demo number",
-    "not_found": "We can't find that number. Check the format — it looks like MM-0000-CA.",
+    "not_found": "We can't find that number. Check the format — it looks like MM-0000-CA or MM-0000-SA.",
     "found": "Shipment found",
     "eta": "Estimated arrival",
     "eta_value": "Today, 4:20 PM",
     "weight": "Weight",
     "weight_value": "2.4 kg",
     "service": "Service",
-    "service_value": "Express final mile",
+    "service_value": "Canada → Saudi Arabia express",
     "checkpoints": [
       {
         "title": "Picked up",
-        "place": "Calgary, AB",
+        "place": "Toronto, ON, Canada",
         "time": "Mon 08:12"
       },
       {
-        "title": "Departed hub",
-        "place": "Calgary, AB",
-        "time": "Mon 19:40"
+        "title": "Departed gateway",
+        "place": "Toronto Pearson (YYZ), Canada",
+        "time": "Mon 21:40"
       },
       {
-        "title": "In transit",
-        "place": "Toronto, ON",
-        "time": "Tue 14:05"
+        "title": "Cleared customs",
+        "place": "Jeddah (JED), Saudi Arabia",
+        "time": "Wed 07:15"
       },
       {
         "title": "Arrived at station",
-        "place": "Ottawa, ON",
-        "time": "Wed 06:31"
+        "place": "Riyadh, Saudi Arabia",
+        "time": "Thu 06:31"
       },
       {
         "title": "Out for delivery",
-        "place": "Ottawa, ON",
-        "time": "Wed 09:02"
+        "place": "Riyadh, Saudi Arabia",
+        "time": "Thu 09:02"
       }
     ]
   },
   "stats": {
-    "title": "Built for how Canadians actually receive packages",
+    "title": "Built for how people in Canada and Saudi Arabia actually receive packages",
     "items": [
       {
         "value": "99.1",
@@ -126,14 +128,14 @@
         "label": "On-time delivery rate"
       },
       {
-        "value": "150",
-        "suffix": "+",
-        "label": "Communities served"
+        "value": "2",
+        "suffix": "",
+        "label": "Countries, one connected network"
       },
       {
-        "value": "10",
+        "value": "23",
         "suffix": "",
-        "label": "Provinces covered"
+        "label": "Canadian provinces and Saudi regions covered"
       },
       {
         "value": "24",
@@ -148,7 +150,15 @@
     "items": [
       {
         "title": "Final-mile delivery",
-        "description": "Regional hub to front door, for e-commerce, retail, and marketplace orders."
+        "description": "Regional hub to front door in Canada and Saudi Arabia, for e-commerce, retail, and marketplace orders."
+      },
+      {
+        "title": "Canada–Saudi Arabia freight",
+        "description": "Air and ocean freight between our Canadian and Saudi gateways, handed straight to our own final-mile network on arrival."
+      },
+      {
+        "title": "Customs clearance",
+        "description": "Declarations, duties, and import paperwork handled on both ends, so cross-border parcels don't stall at the border."
       },
       {
         "title": "Route optimization",
@@ -156,7 +166,11 @@
       },
       {
         "title": "Live tracking portal",
-        "description": "Your customers see exactly where their order is, so they stop calling your support line."
+        "description": "Your customers see exactly where their order is, in English or Arabic, so they stop calling your support line."
+      },
+      {
+        "title": "Cash on delivery",
+        "description": "Drivers collect cash or card at the door and settle to your account, for customers who prefer to pay on arrival."
       },
       {
         "title": "Flexible redelivery",
@@ -164,68 +178,104 @@
       },
       {
         "title": "Cold chain",
-        "description": "Temperature-controlled vans for grocery, pharmacy, and lab samples."
+        "description": "Temperature-controlled vans for grocery, pharmacy, and lab samples — through Canadian winters and Saudi summers alike."
       },
       {
         "title": "Reverse logistics",
-        "description": "Returns collected at the door and consolidated back to your warehouse weekly."
+        "description": "Returns collected at the door and consolidated back to your warehouse weekly, including cross-border returns."
       }
     ]
   },
   "coverage": {
     "eyebrow": "Coverage",
-    "title": "Ten provinces, one network",
-    "description": "LastLinkX runs its own depots in eight metro regions and partners for the last stretch into rural routes. Hover the map to see the lanes we move every night.",
-    "legend": "Primary lanes",
-    "hubs": [
+    "title": "Two countries, one network",
+    "description": "LastLinkX runs its own depots in the major metro regions of Canada and Saudi Arabia and partners for the last stretch into rural routes. Hover the map to see the lanes we move every night.",
+    "legend": "Primary hubs",
+    "regions": [
       {
-        "name": "Vancouver",
-        "province": "BC"
+        "country": "Canada",
+        "hubs": [
+          {
+            "name": "Vancouver",
+            "province": "BC"
+          },
+          {
+            "name": "Calgary",
+            "province": "AB"
+          },
+          {
+            "name": "Toronto",
+            "province": "ON"
+          },
+          {
+            "name": "Ottawa",
+            "province": "ON"
+          },
+          {
+            "name": "Montreal",
+            "province": "QC"
+          }
+        ]
       },
       {
-        "name": "Calgary",
-        "province": "AB"
-      },
-      {
-        "name": "Toronto",
-        "province": "ON"
-      },
-      {
-        "name": "Ottawa",
-        "province": "ON"
-      },
-      {
-        "name": "Montreal",
-        "province": "QC"
+        "country": "Saudi Arabia",
+        "hubs": [
+          {
+            "name": "Jeddah",
+            "province": "Makkah"
+          },
+          {
+            "name": "Riyadh",
+            "province": "Riyadh"
+          },
+          {
+            "name": "Dammam",
+            "province": "Eastern Province"
+          },
+          {
+            "name": "Madinah",
+            "province": "Madinah"
+          }
+        ]
       }
-    ]
+    ],
+    "corridor": {
+      "eyebrow": "Cross-border lane",
+      "title": "The Canada ⇄ Saudi Arabia corridor",
+      "description": "One booking, one tracking number, from a Canadian doorstep to a Saudi one — or the other way round. We consolidate at our gateways, clear customs on both ends, and hand the parcel to our own drivers for the final mile.",
+      "from": "Canada gateways",
+      "from_value": "Toronto · Montreal · Vancouver",
+      "to": "Saudi Arabia gateways",
+      "to_value": "Jeddah · Riyadh · Dammam",
+      "modes": ["Air freight", "Ocean freight", "Customs clearance", "Door-to-door tracking"]
+    }
   },
   "about": {
     "eyebrow": "Who we are",
     "title": "Who's actually moving your freight",
-    "lead": "LastLinkX started in 2018 with four vans and a leased bay in Mississauga. We run our own fleet and hire our drivers directly — no subcontracted gig work, no different face on your route every week.",
+    "lead": "LastLinkX started in 2018 with four vans and a leased bay in Mississauga, and today runs final-mile networks in Canada and Saudi Arabia — plus the lane that connects them. We run our own fleet and hire our drivers directly — no subcontracted gig work, no different face on your route every week.",
     "points": [
       {
         "title": "Drivers on payroll",
-        "description": "Every driver is an employee, paid for the full shift instead of by the parcel, and works the same routes long enough to know them."
+        "description": "Every driver is an employee, paid for the full shift instead of by the parcel, and works the same routes long enough to know them — in Toronto or in Jeddah."
       },
       {
-        "title": "Built for winter",
-        "description": "The fleet runs winter tires from October through April and our depots stay staffed on storm days, because freight still has to move."
+        "title": "Built for every climate",
+        "description": "Winter tires from October through April in Canada, heat-rated vans and cooled cargo for Saudi summers, and depots that stay staffed on storm days and sandstorm days alike."
       },
       {
         "title": "Bilingual end to end",
-        "description": "Tracking pages, delivery notices, and support are in English and Arabic everywhere we operate."
+        "description": "Tracking pages, delivery notices, and support are in English and Arabic in both countries — the languages our customers speak on both ends of the lane."
       }
     ]
   },
   "contact": {
     "eyebrow": "Get a quote",
     "title": "Talk to us about your shipping",
-    "description": "Tell us roughly what you ship and where it's going. We'll come back within one business day with pricing and coverage for your lanes.",
+    "description": "Tell us roughly what you ship and where it's going — within Canada, within Saudi Arabia, or between the two. We'll come back within one business day with pricing and coverage for your lanes.",
     "details": {
       "title": "Contact details",
-      "address": "National address",
+      "address": "Head office — Saudi Arabia",
       "address_lines": [
         "JLSF3792",
         "Salah Aldin 7933",
@@ -247,6 +297,14 @@
         "5k_25k": "5,000 to 25,000 parcels",
         "over_25k": "More than 25,000 parcels"
       },
+      "lane": "Where do you ship?",
+      "lane_placeholder": "Select your lanes",
+      "lane_options": {
+        "canada": "Within Canada",
+        "saudi": "Within Saudi Arabia",
+        "cross_border": "Between Canada and Saudi Arabia",
+        "all": "All of the above"
+      },
       "message": "What do you ship, and where to?",
       "submit": "Send it over",
       "sending": "Sending…",
@@ -255,10 +313,11 @@
     }
   },
   "footer": {
-    "tagline": "The last link in your supply chain.",
+    "tagline": "The last link in your supply chain — across Canada, across Saudi Arabia, and between them.",
     "rights": "All rights reserved.",
     "bilingual": "Service in English and Arabic",
-    "address_title": "National address",
+    "countries": "Operating in Canada and Saudi Arabia",
+    "address_title": "Head office",
     "phone_title": "Phone",
     "columns": {
       "company": "Company",
@@ -270,6 +329,7 @@
       "careers": "Careers",
       "press": "Press",
       "final_mile": "Final mile",
+      "cross_border": "Canada–Saudi freight",
       "cold_chain": "Cold chain",
       "returns": "Returns",
       "track": "Track a package",
@@ -285,7 +345,7 @@
   "legal": {
     "back": "Back to home",
     "updated_label": "Last updated",
-    "updated": "14 September 2026",
+    "updated": "30 September 2026",
     "toc": "On this page",
     "contact_title": "Questions about this page?",
     "contact_body": "Write to us at hello@lastlinkx.com or call +(966) 0507772900. Our registered address is JLSF3792, Salah Aldin 7933, Jeddah 22527, Saudi Arabia.",
@@ -297,7 +357,7 @@
         {
           "title": "Who we are",
           "body": [
-            "LastLinkX is a final-mile delivery and logistics company. For the purposes of this policy we are the controller of the personal data described below.",
+            "LastLinkX is a final-mile delivery and logistics company operating in Canada and the Kingdom of Saudi Arabia, and between the two. For the purposes of this policy we are the controller of the personal data described below.",
             "Registered address: JLSF3792, Salah Aldin 7933, Jeddah 22527, Saudi Arabia. Phone: +(966) 0507772900. Email: hello@lastlinkx.com."
           ]
         },
@@ -305,6 +365,7 @@
           "title": "Information we collect",
           "body": [
             "Shipment data. Sender and recipient names, delivery and pickup addresses, phone numbers, email addresses, parcel contents as declared, weight, dimensions, and any delivery instructions you give us.",
+            "Customs data. For shipments between Canada and Saudi Arabia, the commercial invoice, declared value, tariff classification, and the importer's identification details that customs authorities in either country require.",
             "Delivery evidence. Scan events along the route, timestamps, GPS location of the scan, proof-of-delivery photographs, and the name or signature of whoever accepted the parcel.",
             "Account and enquiry data. What you type into our quote form — your name, work email, monthly volume, and message.",
             "Technical data. IP address, browser and device type, pages viewed, and the language you selected. This is collected automatically when you use the site."
@@ -314,6 +375,7 @@
           "title": "How we use it",
           "body": [
             "To move your shipment: routing it, dispatching a driver, attempting delivery, and proving the parcel arrived.",
+            "To clear cross-border shipments through customs in Canada and Saudi Arabia, and to pay or recover duties and taxes on your behalf.",
             "To let you and your recipient track a parcel, and to send delivery notifications.",
             "To answer quote requests and support enquiries, and to invoice for completed work.",
             "To investigate claims for loss, damage, or delay, and to resolve disputes.",
@@ -332,7 +394,8 @@
             "Our delivery partners, where a route's final stretch is run by a partner carrier. They receive only what is needed to complete that delivery.",
             "Our merchant customers, who receive tracking and delivery evidence for the shipments they sent.",
             "Service providers who host our systems, send our notifications, and process payments, under contract and only on our instructions.",
-            "Authorities, customs, and regulators where the law requires it.",
+            "Customs brokers, airlines, and ocean carriers that move cross-border shipments between Canada and Saudi Arabia.",
+            "Authorities, customs, and regulators in Canada and Saudi Arabia where the law requires it.",
             "We do not sell personal data, and we do not share it with advertisers."
           ]
         },
@@ -358,13 +421,13 @@
           "title": "Your rights",
           "body": [
             "You can ask us for a copy of the personal data we hold about you, ask us to correct it if it is wrong, ask us to delete it where we are not required to keep it, object to a particular use, or ask for your data in a portable format.",
-            "Write to hello@lastlinkx.com and we will respond within thirty days. If you are not satisfied with our answer, you may complain to the competent data protection authority in the Kingdom of Saudi Arabia."
+            "Write to hello@lastlinkx.com and we will respond within thirty days. If you are not satisfied with our answer, you may complain to the competent data protection authority in the Kingdom of Saudi Arabia or, for shipments handled in Canada, to the Office of the Privacy Commissioner of Canada."
           ]
         },
         {
-          "title": "Transfers outside the Kingdom",
+          "title": "Transfers between countries",
           "body": [
-            "Some of our systems and partner carriers operate outside Saudi Arabia. Where personal data is transferred abroad, we do so under contractual safeguards that hold the recipient to the standard of protection set out in this policy and in applicable law."
+            "Because we operate in both Canada and Saudi Arabia, shipment data moves between the two countries — for example when a parcel booked in Toronto is delivered in Riyadh. Some of our systems and partner carriers also operate in other countries. Where personal data is transferred abroad, we do so under contractual safeguards that hold the recipient to the standard of protection set out in this policy and in applicable law."
           ]
         },
         {
@@ -389,7 +452,7 @@
         {
           "title": "The service",
           "body": [
-            "LastLinkX collects, transports, and delivers parcels and freight, and provides tracking and related logistics services. Service availability depends on the route, the parcel, and the destination; we will tell you before booking if we cannot serve a lane."
+            "LastLinkX collects, transports, and delivers parcels and freight within Canada, within Saudi Arabia, and between the two countries, and provides tracking, customs clearance, and related logistics services. Service availability depends on the route, the parcel, and the destination; we will tell you before booking if we cannot serve a lane."
           ]
         },
         {
@@ -402,8 +465,15 @@
         {
           "title": "What we will not carry",
           "body": [
-            "Cash, negotiable instruments, and precious metals or stones. Firearms, ammunition, and explosives. Illegal drugs, and any item prohibited under the laws of the Kingdom of Saudi Arabia or of any country the shipment passes through. Live animals. Human remains. Hazardous materials, except where agreed in writing in advance and correctly declared and packaged.",
+            "Cash, negotiable instruments, and precious metals or stones. Firearms, ammunition, and explosives. Illegal drugs, and any item prohibited under the laws of the Kingdom of Saudi Arabia, of Canada, or of any country the shipment passes through. Live animals. Human remains. Hazardous materials, except where agreed in writing in advance and correctly declared and packaged.",
             "If we discover a prohibited item in a parcel, we may hold it, hand it to the authorities, or dispose of it, and you remain liable for any resulting cost."
+          ]
+        },
+        {
+          "title": "Cross-border shipments",
+          "body": [
+            "For shipments between Canada and Saudi Arabia, you must provide an accurate commercial invoice and a truthful description, value, and origin for every item. We clear the shipment through customs as your agent on the basis of that information.",
+            "Import duties, taxes, and customs fees are payable by the party named at booking. If they are unpaid, we may hold the shipment until they are settled. Delays caused by customs inspection or incomplete documents are not a failure of service."
           ]
         },
         {
@@ -423,7 +493,7 @@
         {
           "title": "Rates and payment",
           "body": [
-            "Invoices are issued against completed shipments and are payable within the term stated on the invoice. Prices exclude VAT and any customs duty, which are charged in addition where applicable.",
+            "Invoices are issued against completed shipments and are payable within the term stated on the invoice. Prices exclude Saudi VAT, Canadian GST/HST, and any customs duty, which are charged in addition where applicable.",
             "We may suspend collections on an account with an overdue balance, after notifying you in writing."
           ]
         },
@@ -445,7 +515,7 @@
         {
           "title": "Events outside our control",
           "body": [
-            "We are not in breach of these terms where performance is prevented or delayed by events beyond our reasonable control, including severe weather, road closures, strikes, civil unrest, and acts of government. We will keep you informed and resume service as soon as it is safe to do so."
+            "We are not in breach of these terms where performance is prevented or delayed by events beyond our reasonable control, including severe weather such as snowstorms and sandstorms, road closures, customs holds, strikes, civil unrest, and acts of government. We will keep you informed and resume service as soon as it is safe to do so."
           ]
         },
         {

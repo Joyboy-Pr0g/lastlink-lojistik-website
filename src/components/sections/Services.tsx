@@ -1,7 +1,10 @@
 import { useTranslation } from "react-i18next";
 import {
   ArrowUpRight,
+  Banknote,
+  FileCheck2,
   PackageOpen,
+  Plane,
   Radar,
   RefreshCcw,
   Route,
@@ -14,7 +17,8 @@ import Tilt from "@/components/ui/Tilt";
 
 type Item = { title: string; description: string };
 
-const ICONS = [Truck, Route, Radar, RefreshCcw, Snowflake, PackageOpen];
+/** In the same order as services.items in the locale files. */
+const ICONS = [Truck, Plane, FileCheck2, Route, Radar, Banknote, RefreshCcw, Snowflake, PackageOpen];
 
 const Services = () => {
   const { t } = useTranslation();

@@ -50,7 +50,10 @@ const upsertOrganization = (origin: string, description: string) => {
     url: origin,
     logo: `${origin}/logo.svg`,
     description,
-    areaServed: { "@type": "Country", name: "Canada" },
+    areaServed: [
+      { "@type": "Country", name: "Saudi Arabia" },
+      { "@type": "Country", name: "Canada" }
+    ],
     knowsLanguage: LANGUAGES,
     address: {
       "@type": "PostalAddress",

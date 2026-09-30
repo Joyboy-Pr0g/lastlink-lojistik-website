@@ -1,6 +1,7 @@
 # LastLinkX
 
-Marketing site for LastLinkX, a final-mile delivery company. One long home page plus two
+Marketing site for LastLinkX, a final-mile delivery company operating in Canada and Saudi Arabia,
+with a cross-border lane between the two. One long home page plus two
 legal pages, dark theme, bilingual (EN/AR, with RTL and the Tajawal font in Arabic), built
 around 3D video and WebGL.
 
@@ -35,7 +36,7 @@ Flow — the exact prompts, negative prompts and encoding commands are in [VIDEO
 
 | File | Used by |
 |---|---|
-| `hero.mp4` | Hero background, and journey step 2 (cross-Canada transit) |
+| `hero.mp4` | Hero background, and journey step 2 (hub-to-hub & cross-border transit) |
 | `pickup.mp4` | Journey step 1 |
 | `dropoff.mp4` | Journey step 3 |
 | `logo.mp4` | *Optional.* Animated logo in the header/footer; falls back to the static logo if absent |
@@ -65,7 +66,8 @@ src/
 ├── components/
 │   ├── hero/          Hero (video parallax + 3D headline) and the live NetworkPanel readout
 │   ├── journey/       Scroll-driven "how it works", plus the MediaHud instrument overlay
-│   ├── coverage/      CoverageScene — the R3F Canada map with animated lanes
+│   ├── coverage/      CoverageScene — the R3F Canada map with animated lanes (Saudi hubs and the
+│   │                  Canada ⇄ Saudi corridor are rendered by sections/Coverage beside it)
 │   ├── layout/        Header, Footer
 │   ├── legal/         LegalPage — the shared shell for Privacy and Terms
 │   ├── sections/      Track, Stats, Services, Coverage, About, Contact

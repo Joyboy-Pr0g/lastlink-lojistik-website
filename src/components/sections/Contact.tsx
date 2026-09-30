@@ -13,6 +13,7 @@ const CONTACT_ENDPOINT = "https://formspree.io/f/placeholder";
 const PHONE_HREF = "tel:+966507772900";
 
 const VOLUME_KEYS = ["under_500", "500_5k", "5k_25k", "over_25k"];
+const LANE_KEYS = ["canada", "saudi", "cross_border", "all"];
 
 const FIELD =
   "mt-2 w-full rounded-2xl border border-white/12 bg-navy-950/60 px-4 py-3.5 text-sm text-white placeholder:text-mist-faint transition focus:border-green/60 focus:outline-none";
@@ -129,26 +130,50 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="mt-5">
-              <label htmlFor="contact-volume" className={LABEL}>
-                {t("contact.form.volume")}
-              </label>
-              <select
-                id="contact-volume"
-                name="volume"
-                defaultValue=""
-                required
-                className={`${FIELD} appearance-none`}
-              >
-                <option value="" disabled>
-                  {t("contact.form.volume_placeholder")}
-                </option>
-                {VOLUME_KEYS.map((key) => (
-                  <option key={key} value={key} className="bg-navy-900">
-                    {t(`contact.form.volume_options.${key}`)}
+            <div className="mt-5 grid gap-5 sm:grid-cols-2">
+              <div>
+                <label htmlFor="contact-lane" className={LABEL}>
+                  {t("contact.form.lane")}
+                </label>
+                <select
+                  id="contact-lane"
+                  name="lane"
+                  defaultValue=""
+                  required
+                  className={`${FIELD} appearance-none`}
+                >
+                  <option value="" disabled>
+                    {t("contact.form.lane_placeholder")}
                   </option>
-                ))}
-              </select>
+                  {LANE_KEYS.map((key) => (
+                    <option key={key} value={key} className="bg-navy-900">
+                      {t(`contact.form.lane_options.${key}`)}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              <div>
+                <label htmlFor="contact-volume" className={LABEL}>
+                  {t("contact.form.volume")}
+                </label>
+                <select
+                  id="contact-volume"
+                  name="volume"
+                  defaultValue=""
+                  required
+                  className={`${FIELD} appearance-none`}
+                >
+                  <option value="" disabled>
+                    {t("contact.form.volume_placeholder")}
+                  </option>
+                  {VOLUME_KEYS.map((key) => (
+                    <option key={key} value={key} className="bg-navy-900">
+                      {t(`contact.form.volume_options.${key}`)}
+                    </option>
+                  ))}
+                </select>
+              </div>
             </div>
 
             <div className="mt-5">
